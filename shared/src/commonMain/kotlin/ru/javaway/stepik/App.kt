@@ -8,6 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import ru.javaway.stepik.platform.DeviceInfo
 
 fun sayHello(){
     println("Hi from Stepik multi")

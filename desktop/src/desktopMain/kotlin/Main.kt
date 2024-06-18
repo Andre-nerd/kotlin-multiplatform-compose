@@ -4,6 +4,7 @@ import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 import androidx.compose.ui.window.rememberWindowState
 import ru.javaway.stepik.SayHelloFromCompose
+import ru.javaway.stepik.root.RootScreen
 import ru.javaway.stepik.sayHello
 
 fun main() {
@@ -14,7 +15,7 @@ fun main() {
             state = state,
             title = "Stepik Multi"
         ){
-            SayHelloFromCompose()
+           RootScreen()
         }
     }
 }
