@@ -4,15 +4,16 @@ import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 import androidx.compose.ui.window.rememberWindowState
 import ru.javaway.stepik.root.RootScreen
+import ru.javaway.stepik.root.RootViewModel
 
 fun main() {
     application {
-        val state = rememberWindowState().apply { size  = DpSize(200.dp, 200.dp) }
+        val state = rememberWindowState().apply { size  = DpSize(300.dp, 500.dp) }
         Window(onCloseRequest = {exitApplication()},
             state = state,
-            title = "Stepik Multi"
+            title = "compose multi"
         ){
-           RootScreen()
+           RootScreen(RootViewModel())
         }
     }
 }
