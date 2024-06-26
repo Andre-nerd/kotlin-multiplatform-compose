@@ -13,9 +13,9 @@ data class AppColors(
 val lightPalette = AppColors(
     accent = Color(0xFF805610),
     background = Color(0xFFFFF8F4),
-    surface = Color(0xFFFFF8F4),
+    surface = Color(0xFF5EC4CD),
     onBackground = Color(0xFF201B13),
-    onSurface = Color(0xFF201B13)
+    onSurface = Color(0xFF2C3E82)
 )
 val darkPalette = AppColors(
     accent = Color(0xFFF9C172),
